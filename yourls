@@ -5,18 +5,18 @@ YOURLS_HOST="https://sho.rt/"
 YOURLS_KEY="eb9444558f" # see sho.rt/admin/tools.php
 
 yourls_help() {
-    echo "Shorten URLs with YOURLS"
-    echo
-    echo "Usage:"
-    echo "  ${0##*/} <url>"
-    echo "  ${0##*/} <url> -k <KEYWORD> -t <TITLE> -f <FORMAT>"
-    echo "  ${0##*/} <url> --help"
-    echo
-    echo "Options:"
-    echo "  -h | --help                Show this screen"
-    echo "  -k | --keyword <KEYWORD>   Custom keyword"
-    echo "  -t | --title <TITLE>       Custom title"
-    echo "  -f | --format <FORMAT>     Ouput format (json, xml, simple)"
+    echo "Shorten URLs with YOURLS
+
+Usage:
+  ${0##*/} <url>
+  ${0##*/} <url> -k <KEYWORD> -t <TITLE> -f <FORMAT>
+  ${0##*/} <url> --help
+
+Options:
+  -h | --help                Show this screen
+  -k | --keyword <KEYWORD>   Custom keyword
+  -t | --title <TITLE>       Custom title
+  -f | --format <FORMAT>     Ouput format (json, xml, simple)"
     exit 1
 }
 
